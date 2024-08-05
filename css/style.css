@@ -1,0 +1,134 @@
+body {
+    background-color: #f9f4f5; /* Pudrowy róż jako dopełnienie tła */
+    background-repeat: no-repeat; /* Bez powtarzania wzoru */
+    background-position: center center; /* Wyśrodkowanie wzoru */
+    background-size: cover; /* Pełne pokrycie tła */
+    background-attachment: fixed; /* Stałe w tle podczas przewijania */
+    color: #333;
+    font-family: Snell Roundhand, cursive;
+}
+
+header, section, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF; /* Adding white background for content visibility */
+}
+
+.countdown-style {
+    font-size: 70px; /* Customizable size for countdown */
+    font-weight: bold;
+    color: #B76E79; /* Consistent color theme */
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, p, li {
+    font-size: larger; /* Slightly larger font size for better readability */
+    color: #B76E79; /* Consistent color theme */
+}
+
+h1, h3 {
+    font-size: 100px; /* Adjusted size for h1 */
+    background-image: url('../resources/images/kolko.jpg');
+    background-position: center center; /* Center the image */
+    background-size: cover; /* Contain within the element */
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 120px; /* Larger size for visual emphasis */
+}
+
+h4 {
+    font-size: 100px;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-plaza {
+    width: 60%; /* Makes the image responsive by setting its width to 100% of its container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    display: block; /* Displays the image as a block to prevent unwanted margins */
+    margin: 0 auto; /* Centers the image horizontally in its container */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+.img-plaza2 {
+    width: 35%; /* Makes the image responsive by setting its width to 100% of its container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    display: block; /* Displays the image as a block to prevent unwanted margins */
+    margin: 0 auto; /* Centers the image horizontally in its container */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+.img-food {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Space above the image */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+nav {
+    text-align: center; /* Center-aligns the navigation */
+    background-color: #f9f4f5; /* Powdery pink background */
+    padding: 10px 0; /* Adds padding above and below the navigation links */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    display: inline-block; /* Centers the list items if the parent is centered */
+}
+
+nav li {
+    display: inline; /* Displays the list items inline */
+}
+
+nav li a {
+    display: inline-block;
+    padding: 8px 15px; /* Adds padding around the links */
+    font-size: 40px; /* Larger font size */
+    color: #B76E79; /* A shade of powdery pink for the text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav li a:hover {
+    background-color: #B76E79; /* Changes background on hover */
+    color: white; /* Changes text color on hover */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Adds spacing between items for better readability */
+}
+
+section h2 {
+    color: #B76E79; /* Theme color for section headers */
+    margin-top: 20px;
+}
+
+section {
+    background-color: #FFF; /* Optional: adds a white background to sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Optional: adds rounded corners to sections */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
+}
