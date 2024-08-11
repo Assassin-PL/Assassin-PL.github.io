@@ -21,7 +21,7 @@ header, section, footer {
     margin-top: 10px;
 }
 
-h1, h2, h3, h4, h5, p, li {
+h1, h2, h3, h4, h5, h6, p, li {
     font-size: larger; /* Slightly larger font size for better readability */
     color: #B76E79; /* Consistent color theme */
 }
@@ -49,6 +49,12 @@ h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 50px;
+}
+
+h6{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 p {
@@ -96,6 +102,7 @@ nav ul {
 
 nav li {
     display: inline; /* Displays the list items inline */
+    font-family: Snell Roundhand, cursive;
 }
 
 nav li a {
@@ -117,7 +124,8 @@ ul {
 }
 
 li {
-    margin-bottom: 10px; /* Adds spacing between items for better readability */
+    margin-bottom: 20px; /* Adds spacing between items for better readability */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section h2 {
