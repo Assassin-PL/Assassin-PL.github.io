@@ -109,7 +109,7 @@ nav li {
 nav li a {
     display: inline-block;
     padding: 8px 15px; /* Adds padding around the links */
-    font-size: 40px; /* Larger font size */
+    font-size: 200%; /* Larger font size */
     color: #B76E79; /* A shade of powdery pink for the text */
     text-decoration: none; /* Removes underline from links */
 }
