@@ -20,3 +20,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, 1000);
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const galleryContainer = document.querySelector('.gallery');
+    const images = [
+        'plaza1.jpg',
+        'plaza2.jpg'
+    ];
+
+    images.forEach(function(image) {
+        const imgElement = document.createElement('img');
+        imgElement.src = `resources/images/${image}`;
+        imgElement.alt = `Zdjęcie Michała i Kamilii`;
+        imgElement.className = 'img-plaza';
+        galleryContainer.appendChild(imgElement);
+    });
+
+});
