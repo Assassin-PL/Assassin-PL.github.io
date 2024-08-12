@@ -9,16 +9,16 @@ body {
 }
 
 header, section, footer {
-    padding: 20px;
+    padding: 2.5%;
     text-align: center;
     background-color: #FFF; /* Adding white background for content visibility */
 }
 
 .countdown-style {
-    font-size: 70px; /* Customizable size for countdown */
+    font-size: 250%; /* Customizable size for countdown */
     font-weight: bold;
     color: #B76E79; /* Consistent color theme */
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -27,34 +27,35 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 h1, h3 {
-    font-size: 100px; /* Adjusted size for h1 */
+    font-size: 500%; /* Adjusted size for h1 */
     background-image: url('../resources/images/kolko.jpg');
     background-position: center center; /* Center the image */
     background-size: cover; /* Contain within the element */
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 100%;
 }
 
 h3 {
-    font-size: 120px; /* Larger size for visual emphasis */
+    font-size: 550%; /* Larger size for visual emphasis */
 }
 
 h4 {
-    font-size: 100px;
+    font-size: 250%;
 }
 
 h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 250%;
 }
 
 h6{
-    font-size: 50px;
+    font-size: 250%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    margin-bottom: 1%;
+    margin-top: 5%;
 }
 
 p {
@@ -90,13 +91,13 @@ p {
 nav {
     text-align: center; /* Center-aligns the navigation */
     background-color: #f9f4f5; /* Powdery pink background */
-    padding: 10px 0; /* Adds padding above and below the navigation links */
+    padding: 0.5% 0; /* Adds padding above and below the navigation links */
 }
 
 nav ul {
     list-style-type: none; /* Removes bullet points from the list */
-    padding: 0; /* Removes padding */
-    margin: 0; /* Removes margin */
+    padding: 0%; /* Removes padding */
+    margin: 0%; /* Removes margin */
     display: inline-block; /* Centers the list items if the parent is centered */
 }
 
@@ -120,23 +121,23 @@ nav li a:hover {
 
 ul {
     list-style-type: none; /* Removes bullet points */
-    padding: 0;
+    padding: 0%;
 }
 
 li {
-    margin-bottom: 20px; /* Adds spacing between items for better readability */
+    margin-bottom: 1%; /* Adds spacing between items for better readability */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section h2 {
     color: #B76E79; /* Theme color for section headers */
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 section {
     background-color: #FFF; /* Optional: adds a white background to sections */
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
     border-radius: 8px; /* Optional: adds rounded corners to sections */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
 }
