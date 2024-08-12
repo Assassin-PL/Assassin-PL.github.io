@@ -1,6 +1,6 @@
 // Function for countdown to the wedding day
 document.addEventListener('DOMContentLoaded', function() {
-    const countdownTargetDate = new Date("July 18, 2025 15:00:00").getTime();
+    const countdownTargetDate = new Date("July 18, 2025 15:30:00").getTime();
 
     const timer = setInterval(function() {
         const now = new Date().getTime();

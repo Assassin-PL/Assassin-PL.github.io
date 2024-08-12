@@ -18,7 +18,7 @@ header, section, footer {
     font-size: 250%; /* Customizable size for countdown */
     font-weight: bold;
     color: #B76E79; /* Consistent color theme */
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 h1, h3 {
-    font-size: 500%; /* Adjusted size for h1 */
+    font-size: 400%; /* Adjusted size for h1 */
     background-image: url('../resources/images/kolko.jpg');
     background-position: center center; /* Center the image */
     background-size: cover; /* Contain within the element */
@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-    font-size: 550%; /* Larger size for visual emphasis */
+    font-size: 450%; /* Larger size for visual emphasis */
 }
 
 h4 {
@@ -48,7 +48,7 @@ h4 {
 h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
-    font-size: 250%;
+    font-size: 150%;
 }
 
 h6{
@@ -63,7 +63,7 @@ p {
 }
 
 .img-plaza {
-    width: 60%; /* Makes the image responsive by setting its width to 100% of its container */
+    width: 35%; /* Makes the image responsive by setting its width to 100% of its container */
     height: auto; /* Keeps the aspect ratio of the image */
     display: block; /* Displays the image as a block to prevent unwanted margins */
     margin: 0 auto; /* Centers the image horizontally in its container */
