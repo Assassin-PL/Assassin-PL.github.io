@@ -141,3 +141,11 @@ section {
     border-radius: 8px; /* Optional: adds rounded corners to sections */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
 }
+
+.gallery {
+    display: flex; /* Use flexbox to lay out images in a row */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 2%; /* Sets the gap between images to 2% of the container's width */
+    justify-content: space-around; /* Distributes space around items */
+    padding: 5%; /* Padding around the entire gallery for a clean look */
+}

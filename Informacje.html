@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Staropolskie Menu Weselne - Kamila & Michał</title>
+    <title>Noclegi - Kamila & Michał</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,13 +19,48 @@
         </ul>
     </nav>
     <header>
-        <h3>Menu Weselne</h3>
+        <h3>Noclegi w Pensjonacie</h3>
         <h4>Kamila & Michał</h4>
         <h3>18 lipca 2025</h3>
     </header>
     <section>
-        <h2>NASZE WSPÓLNE ZDJĘCIA</h2>
-        <img src="resources/images/plaza1.jpg" alt="Zdjęcie Michała i Kamilii" class="img-plaza">
+        <h2>Oferowane Noclegi</h2>
+        <p>Pensjonat "Wodny Świat Ostrzyce" oferuje komfortowe pokoje z pięknym widokiem na jezioro oraz dostępem do wszelkich udogodnień. Do dyspozycji gości:</p>
+        <ul>
+            <li>Pokoje dwuosobowe z łazienką</li>
+            <li>Pokoje trzyosobowe z łazienką</li>
+            <li>Apartamenty rodzinne z aneksem kuchennym</li>
+            <li>Dostęp do Wi-Fi i telewizji</li>
+            <li>Śniadanie wliczone w cenę</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Formularz Noclegowy</h2>
+        <p>Prosimy o wypełnienie poniższego formularza, aby zarezerwować nocleg. Pamiętaj, aby wysłać swoją dyspozycyjność na adres <a href="mailto:kaaamillaaa032002@gmail.com">kaaamillaaa032002@gmail.com</a>.</p>
+        <form action="mailto:kaaamillaaa032002@gmail.com" method="post" enctype="text/plain">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="firstname" required><br><br>
+
+            <label for="lname">Nazwisko:</label><br>
+            <input type="text" id="lname" name="lastname" required><br><br>
+
+            <label for="phone">Telefon:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="accommodation">Czy chcesz sniadanie?</label><br>
+            <select id="accommodation" name="accommodation" required>
+                <option value="tak">Tak</option>
+                <option value="nie">Nie</option>
+            </select><br><br>
+
+            <label for="transport">Wybór transportu:</label><br>
+            <select id="transport" name="transport" required>
+                <option value="wlasny">Własny</option>
+                <option value="zorganizowany">Zorganizowany</option>
+            </select><br><br>
+
+            <input type="submit" value="Wyślij">
+        </form>
     </section>
     <footer>
         <p>Dziękujemy za odwiedzenie naszej strony! KAMILA&MICHAŁ</p>
