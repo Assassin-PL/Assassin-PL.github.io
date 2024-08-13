@@ -88,6 +88,14 @@ p {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
 }
 
+.video-responsive {
+    width: 80%; /* Set the video width to 80% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container's width */
+    display: block;
+    margin: 0 auto; /* Center the video */
+}
+
 nav {
     text-align: center; /* Center-aligns the navigation */
     background-color: #f9f4f5; /* Powdery pink background */
