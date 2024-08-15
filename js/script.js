@@ -25,7 +25,28 @@ document.addEventListener("DOMContentLoaded", function() {
     const galleryContainer = document.querySelector('.gallery');
     const images = [
         'plaza1.jpg',
-        'plaza2.jpg'
+        'plaza2.jpg',
+        'IMG_0059.png',
+        'IMG_1543.png',
+        'IMG_1617.png',
+        'IMG_3301.png',
+        'IMG_3423.png',
+        'IMG_4522.png',
+        'IMG_4631.png',
+        'IMG_4948.png',
+        'IMG_5395.png',
+        'IMG_5594.png',
+        'IMG_5889.png',
+        'IMG_6162.png',
+        'IMG_6185.png',
+        'IMG_6188.png',
+        'IMG_6286.png',
+        'IMG_6430.png',
+        'IMG_7463.png',
+        'IMG_8272.png',
+        'IMG_9135.png',
+        'IMG_9877.png',
+        'IMG_9940.png'
     ];
 
     images.forEach(function(image) {
