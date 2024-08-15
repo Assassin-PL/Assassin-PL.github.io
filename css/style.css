@@ -5,7 +5,7 @@ body {
     background-size: cover; /* Pełne pokrycie tła */
     background-attachment: fixed; /* Stałe w tle podczas przewijania */
     color: #333;
-    font-family: Snell Roundhand, cursive;
+    font-family: Snell Roundhand;
 }
 
 header, section, footer {
